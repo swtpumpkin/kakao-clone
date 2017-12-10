@@ -9,9 +9,8 @@
   <title>Profile</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header class="top-header">
+  <header class="top-header top-header-transparent">
     <div class="header__top">
       <div class="header__column">
         <!-- plane icon -->
@@ -47,28 +46,32 @@
   </header>
   <main class="profile">
     <header class="profile__header">
-      <img src="images/avatar.jpg">
-      <h3 class="profile__header-title">Swtpumpkin</h3>
+      <div class="profile__header-container">
+        <img src="images/avatar.jpg">
+        <h3 class="profile__header-title">Swtpumpkin</h3>
+      </div>
     </header>
-    <input type="text" placeholder="swtpumpkin90@gmail.com">
-    <div class="profile__actions">
-      <div class="profile__action">
-        <span class="profile__actrion-circle">
-          <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
-        </span>
-        <span class="profile__action-title">
-          My Chatrooms
-        </span>
-        </div>
-      <div class="profile__action">
-        <span class="profile__actrion-circle">
-          <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
-        </span>
-        <span class="profile__action-title">
-          Edit Profile
-        </span>
-        </div>
-    </div>
+    <div class="profile__container">
+      <input type="text" placeholder="swtpumpkin90@gmail.com">
+      <div class="profile__actions">
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+          </span>
+          <span class="profile__action-title">
+            My Chatrooms
+          </span>
+          </div>
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+          </span>
+          <span class="profile__action-title">
+            Edit Profile
+          </span>
+          </div>
+      </div>
+    </div>  
   </main>
 </body>
 
