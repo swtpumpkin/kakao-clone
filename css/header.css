@@ -45,4 +45,6 @@
 
 .top-header .header__number {
   color: yellow;
+  background-color: #ffe934;
+  padding: 10px;
 }
